@@ -1,1 +1,2 @@
-# SAT - genetic programmin with detailed paramaters study
+# SAT
+genetic programming with detailed paramaters study
