@@ -1,0 +1,1139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="GA3SAT" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9453e96d-a1a2-41b0-b8f6-c490c59eed50" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sat/Formula.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sat/Variable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sat/algorithm/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sat/algorithm/Population.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sat/algorithm/SATSolverGA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sat/factory/SATSolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sat/factory/SATSolverFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sat/helpers/CPUTimer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sat/helpers/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Statistics/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../adp-new/src/test/java/cz/fit/miadp/mvcgame/TestControllerSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/google-services.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/androidTest/java/cz/daywork/core/task/manager/TaskManagerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/androidTest/java/cz/daywork/shared/conversation/conversation/ChatAdapterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/androidTest/java/cz/daywork/shared/conversation/conversation/ConversationActivityTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/androidTest/java/cz/daywork/worker/filter/adapter/FilterActivityTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/androidTest/java/cz/daywork/worker/filter/adapter/FilterAdapterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/androidTest/java/cz/daywork/worker/filter/adapter/FilterAreaAdapterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/androidTest/java/cz/daywork/worker/jobs/view/JobsActivityTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/androidTest/java/cz/daywork/worker/profile/view/ProfileActivityTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/androidTest/java/cz/daywork/worker/profile/view/SpinnerQualificationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/androidTest/java/cz/daywork/worker/view/BaseRecyclerViewAdapterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/ic_profile_photo-web.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/ActivitiesModule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/ServicesModule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/company/ui/CompanyActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/api/ApiConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/api/CompanyApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/api/LoginApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/api/PublicApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/api/SharedApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/api/WorkerApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/api/deserializer/DateDeserializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/api/error/DwApiException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/api/interceptor/DeviceIdInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/api/interceptor/ErrorInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/api/interceptor/TokenInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/api/model/DwApiError.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/api/model/enumeration/Age.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/api/model/enumeration/Country.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/api/model/enumeration/DressSize.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/api/model/enumeration/Durations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/api/model/enumeration/Education.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/api/model/enumeration/Enumerations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/api/model/enumeration/Experience.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/api/model/enumeration/Frequency.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/api/model/enumeration/Height.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/api/model/enumeration/ItSkill.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/api/model/enumeration/Language.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/api/model/enumeration/Workplace.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/connector/LoginConnector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/connector/LoginConnectorImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/connector/PublicConnector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/connector/PublicConnectorImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/connector/SharedConnector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/connector/SharedConnectorImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/connector/WorkerConnector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/connector/WorkerConnectorImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/crypto/RsaHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/dagger/AppComponent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/dagger/AppInjector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/dagger/AppModule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/dagger/BaseFragmentModule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/dagger/Injectable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/dagger/ViewModelSubComponent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/db/BaseDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/db/DwDatabase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/db/Preference.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/db/PreferenceHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/db/credentials/Credentials.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/db/credentials/CredentialsDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/db/credentials/CredentialsRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/db/credentials/CredentialsRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/db/credentials/CredentialsTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/db/credentials/CredentialsViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/db/enumeration/EnumerationDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/db/enumeration/EnumerationTypeConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/db/enumeration/model/Enumeration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/db/enumeration/model/EnumerationType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/db/user/UserDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/db/user/UserKindTypeConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/db/user/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/db/user/model/UserKind.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/enumeration/EnumerationRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/enumeration/EnumerationTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/enumeration/EnumerationViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/live/BaseRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/live/BaseViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/live/LiveFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/live/LiveResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/live/LoadingState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/log/L.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/notification/NotificationChannelDefinition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/notification/NotificationHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/push/DayworkMessagingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/push/DayworkTokenService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/push/PushDeserializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/push/PushRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/push/dagger/LoudPushSubComponent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/push/dagger/PushModule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/push/dagger/SilentPushSubComponent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/push/handler/AcceptedJobsChangedHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/push/handler/ConversationReadHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/push/handler/EnumerationChangedHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/push/handler/FavouriteJobsChangedHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/push/handler/FilteredJobsChangedHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/push/handler/JobNotificationHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/push/handler/PendingJobsChangedHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/push/handler/ProfileChangedHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/push/handler/PushHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/push/handler/SimpleMessageHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/push/handler/UnacceptedJobsChangedHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/push/model/ApplicationNotification.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/push/model/MessageConversation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/push/model/MessageInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/push/model/PushKey.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/push/model/PushMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/push/model/PushStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/push/router/LoudPushRouter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/push/router/PushRouter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/push/router/SilentPushRouter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/push/viewmodel/PushViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/splash/WelcomeActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/task/DwApiTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/task/DwTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/task/manager/TaskId.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/task/manager/TaskManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/ui/BaseActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/ui/BaseFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/ui/BaseToolbarActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/user/LoginFacebookTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/user/LoginGoogleTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/user/LoginTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/user/LogoutTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/user/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/core/user/UserViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/conversation/db/ConversationDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/conversation/db/MessageDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/conversation/model/Conversation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/conversation/model/ConversationResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/conversation/model/MessageAddRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/conversation/model/MessageRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/conversation/model/MessagesResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/conversation/model/UserMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/conversation/repository/ChatGetRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/conversation/repository/ConversationBoundaryCallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/conversation/repository/ConversationGetRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/conversation/repository/MessageAddRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/conversation/task/ConversationTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/conversation/task/MessageAddTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/conversation/task/MessageTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/conversation/view/ChatActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/conversation/view/ConversationActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/conversation/view/adapter/ChatAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/conversation/view/adapter/ConversationAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/conversation/view/adapter/OnConversationAdapterItemClickListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/conversation/view/holder/MessageViewHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/conversation/viewModel/ChatGetViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/conversation/viewModel/ConversationGetViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/conversation/viewModel/MessageAddViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/dialog/SheetDialogFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/forms/model/ProfileValue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/forms/model/StringValue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/forms/state/ProfileViewState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/forms/validation/MinLengthValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/forms/validation/RequiredValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/forms/validation/Validator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/forms/view/FormCustomView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/forms/view/FormEditText.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/forms/view/FormInputView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/forms/view/FormPopupView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/login/model/LoginMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/login/model/LoginRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/login/ui/FacebookLoginHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/login/ui/GoogleLoginHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/login/ui/LoginActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/notification/db/NotificationDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/notification/model/NotificationModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/notification/repository/NotificationGetRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/notification/view/NotificationActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/notification/view/adapter/NotificationAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/notification/view/holder/NotificationViewHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/notification/viewModel/NotificationGetViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/registration/model/CompanyAddress.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/registration/model/CompanyCountry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/registration/model/CompanyKind.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/registration/model/CompanyResponsible.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/registration/model/Gender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/registration/model/RegisterCompanyRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/registration/model/RegisterWorkerRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/registration/task/RegistrationCompanyTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/registration/task/RegistrationWorkerTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/registration/ui/BaseRegisterActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/registration/ui/RegisterCompanyActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/registration/ui/RegisterWorkerActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/registration/viewmodel/RegisterCompanyRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/registration/viewmodel/RegisterCompanyViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/registration/viewmodel/RegisterWorkerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/registration/viewmodel/RegisterWorkerViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/util/KeyboardUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/shared/util/KeyboardVisibilityListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/filter/db/FilterDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/filter/db/FilterElementTypeConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/filter/model/FilterArea.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/filter/model/FilterElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/filter/model/FilterElementType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/filter/model/FilterRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/filter/model/FilterResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/filter/model/FilterWorkplace.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/filter/repository/FilterGetAreaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/filter/repository/FilterGetRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/filter/repository/FilterGetWorkplaceRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/filter/repository/FilterUploadRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/filter/task/FilterGetTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/filter/task/FilterUploadTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/filter/view/FilterActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/filter/view/adapter/FilterAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/filter/view/adapter/FilterAreaAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/filter/view/adapter/SectionsPageAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/filter/view/dagger/FiltersModule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/filter/view/fragment/BaseFilterFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/filter/view/fragment/FilterAreaFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/filter/view/fragment/FilterWorkplaceFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/filter/view/holder/CheckboxViewHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/filter/viewModel/FilterGetAreaViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/filter/viewModel/FilterGetWorkplaceViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/filter/viewModel/FilterUploadViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/db/AcceptedJobDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/db/FavouriteJobDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/db/FilteredJobDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/db/JobDetailDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/db/JobTypeConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/db/PendingJobDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/db/UnacceptedJobDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/model/AcceptedJob.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/model/FavouriteJob.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/model/FilteredJob.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/model/Job.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/model/JobAddress.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/model/JobDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/model/JobType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/model/JobWorkerDefinition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/model/JobsResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/model/PendingJob.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/model/UnacceptedJob.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/model/Wage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/model/WageType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/model/request/JobAcceptedRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/model/request/JobPendingRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/model/request/JobRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/repository/JobAddRemoveRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/repository/JobDetailRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/repository/add/JobAddFavouriteRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/repository/add/JobAddPendingRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/repository/add/JobAddUnacceptedRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/repository/get/BaseJobRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/repository/get/JobBoundaryCallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/repository/get/JobGetAcceptedRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/repository/get/JobGetFavouriteRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/repository/get/JobGetFilteredRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/repository/get/JobGetPendingRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/repository/get/JobGetUnacceptedRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/repository/remove/JobRemoveAcceptedRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/repository/remove/JobRemoveFavouriteRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/repository/remove/JobRemovePendingRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/repository/remove/JobRemoveUnacceptedRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/task/JobAddRemoveTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/task/JobDetailTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/task/JobsTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/task/add/JobAddFavouriteTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/task/add/JobAddPendingTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/task/add/JobAddUnacceptedTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/task/remove/JobRemoveAcceptedTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/task/remove/JobRemoveFavouriteTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/task/remove/JobRemovePendingTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/task/remove/JobRemoveUnacceptedTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/view/JobDetailActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/view/JobsActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/view/adapter/ExperienceAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/view/adapter/JobsAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/view/adapter/LanguageAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/view/adapter/LocationAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/view/adapter/OnPhotoItemClickListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/view/adapter/SkillAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/view/dagger/JobsModule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/view/dialog/DwAlertDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/view/dialog/SingleTextDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/view/fragment/BaseJobFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/view/fragment/JobFavouriteFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/view/fragment/JobMyFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/view/fragment/JobOfferFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/view/holder/ActionViewHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/view/holder/ExperienceViewHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/view/holder/LanguageViewHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/view/holder/LocationViewHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/view/holder/SkillViewHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/view/listener/OnJobAdapterItemClickListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/viewModel/JobDetailViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/viewModel/add/JobAddFavouriteViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/viewModel/add/JobAddPendingViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/viewModel/add/JobAddUnacceptedViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/viewModel/add/JobAddViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/viewModel/get/JobGetAcceptedViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/viewModel/get/JobGetFavouriteViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/viewModel/get/JobGetFilteredViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/viewModel/get/JobGetPendingViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/viewModel/get/JobGetUnacceptedViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/viewModel/remove/JobRemoveAcceptedViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/viewModel/remove/JobRemoveFavouriteViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/viewModel/remove/JobRemovePendingViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/viewModel/remove/JobRemoveUnacceptedViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/jobs/viewModel/remove/JobRemoveViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/db/ProfileGeneralDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/db/ProfileQualificationDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/db/ProfileSubscriptionDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/db/ProfileTypeConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/model/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/model/Experience.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/model/Language.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/model/ProfileGeneral.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/model/ProfilePasswordRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/model/ProfileQualification.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/model/ProfileResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/model/ProfileSubscription.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/model/ProfileVideo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/model/Range.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/model/Skill.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/repository/BadgeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/repository/PhotoUploadRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/repository/ProfileGeneralGetRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/repository/ProfileGeneralUploadRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/repository/ProfilePasswordUploadRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/repository/ProfilePhotoUploadRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/repository/ProfileQualificationGetRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/repository/ProfileQualificationUploadRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/repository/ProfileSubscriptionGetRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/repository/ProfileSubscriptionUploadRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/task/PhotoUploadTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/task/ProfileGeneralUploadTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/task/ProfileGetTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/task/ProfilePasswordUploadTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/task/ProfileQualificationUploadTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/task/ProfileSubscriptionUploadTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/view/ProfileActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/view/ProfileLoginActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/view/ProfileSubscriptionActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/view/adapter/BadgeAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/view/adapter/EnumerationSpinnerAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/view/adapter/ExperienceEditableAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/view/adapter/ImageAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/view/adapter/LanguagesEditableAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/view/adapter/SkillsAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/view/adapter/SliderViewPagerAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/view/adapter/SwitchAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/view/adapter/VideoAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/view/fragment/SlideshowDialogFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/view/holder/BadgeViewHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/view/holder/ExperienceEditableViewHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/view/holder/ImageViewHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/view/holder/LanguageEditableViewHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/view/holder/SkillViewHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/view/holder/SwitchViewHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/view/holder/VideoViewHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/viewModel/PhotoUploadViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/viewModel/ProfileGeneralGetViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/viewModel/ProfileGeneralUploadViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/viewModel/ProfilePasswordUploadViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/viewModel/ProfilePhotoUploadViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/viewModel/ProfileQualificationGetViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/viewModel/ProfileQualificationUploadViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/viewModel/ProfileSubscriptionGetViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/profile/viewModel/ProfileSubscriptionUploadViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/util/model/DataState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/util/model/DisplayImage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/util/model/TimeObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/util/model/Utils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/util/model/Validator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/util/view/AdapterCallableActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/util/view/BaseGetPostActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/util/view/BaseImageWorkerActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/util/view/BaseInvalidateRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/util/view/BaseProfileRecyclerViewAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/util/view/BaseRecyclerViewAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/util/view/BaseToolbarUserActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/cz/daywork/worker/util/view/SpacesItemDecoration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/anim/shake.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-hdpi/ic_arrow_next.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-hdpi/ic_chat_black_24dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-hdpi/ic_chevron_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-hdpi/ic_gavel_black_24dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-hdpi/ic_launcher_adaptive.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-hdpi/ic_notification.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-hdpi/ic_person_black_24dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-hdpi/ic_star_black_24dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-hdpi/logo_daywork.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-mdpi/badge_drivinglicense.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-mdpi/badge_education_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-mdpi/badge_education_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-mdpi/badge_female.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-mdpi/badge_language_af.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-mdpi/badge_language_ar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-mdpi/badge_language_be.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-mdpi/badge_language_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-mdpi/badge_language_bn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-mdpi/badge_language_bs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-mdpi/badge_language_ca.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-mdpi/badge_language_da.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-mdpi/badge_language_de.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-mdpi/badge_language_el.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-mdpi/badge_language_en.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-mdpi/badge_language_eo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-mdpi/badge_language_es.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-mdpi/badge_language_fa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-mdpi/badge_language_fi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-mdpi/badge_language_fr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-mdpi/badge_language_he.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-mdpi/badge_language_hi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-mdpi/badge_language_hr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-mdpi/badge_language_hu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-mdpi/badge_language_it.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-mdpi/badge_language_ja.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-mdpi/badge_language_ko.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-mdpi/badge_language_la.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-mdpi/badge_language_lb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-mdpi/badge_language_lt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-mdpi/badge_language_lv.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-mdpi/badge_language_ms.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-mdpi/badge_language_nl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-mdpi/badge_language_no.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-mdpi/badge_language_pl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-mdpi/badge_language_pt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-mdpi/badge_language_ra.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-mdpi/badge_language_ro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-mdpi/badge_language_ru.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-mdpi/badge_language_sk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-mdpi/badge_language_sl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-mdpi/badge_language_sq.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-mdpi/badge_language_sr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-mdpi/badge_language_sv.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-mdpi/badge_language_tr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-mdpi/badge_language_uk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-mdpi/badge_language_vi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-mdpi/badge_language_zh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-mdpi/badge_male.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-mdpi/badge_unspecified.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-mdpi/ic_arrow_next.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-mdpi/ic_chat_black_24dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-mdpi/ic_chevron_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-mdpi/ic_gavel_black_24dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-mdpi/ic_launcher_adaptive.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-mdpi/ic_notification.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-mdpi/ic_person_black_24dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-mdpi/ic_star_black_24dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-mdpi/logo_daywork.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/ic_arrow_next.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/ic_chat_black_24dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/ic_chevron_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/ic_gavel_black_24dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/ic_launcher_adaptive.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/ic_notification.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/ic_person_black_24dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/ic_star_black_24dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/logo_daywork.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xxhdpi/ic_arrow_next.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xxhdpi/ic_chat_black_24dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xxhdpi/ic_chevron_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xxhdpi/ic_gavel_black_24dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xxhdpi/ic_launcher_adaptive.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xxhdpi/ic_notification.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xxhdpi/ic_person_black_24dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xxhdpi/ic_star_black_24dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xxhdpi/logo_daywork.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xxxhdpi/ic_arrow_next.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xxxhdpi/ic_chat_black_24dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xxxhdpi/ic_chevron_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xxxhdpi/ic_gavel_black_24dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xxxhdpi/ic_launcher_adaptive.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xxxhdpi/ic_notification.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xxxhdpi/ic_person_black_24dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xxxhdpi/ic_star_black_24dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xxxhdpi/logo_daywork.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable/border.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable/ic_add_white_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable/ic_close_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable/ic_close_white_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable/ic_group_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable/ic_more_vert_white_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable/ic_notifications_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable/ic_send_grey_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable/job_request_edit_text.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable/message_edit_text.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable/person_placeholder.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable/profile_edit_text.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable/switch_thumb_drawable.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable/vector_progress.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/acitvity_welcome.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/action_chat.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/activity_company.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/activity_conversation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/activity_filter.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/activity_filter_workplace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/activity_job.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/activity_job_detail.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/activity_login.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/activity_notification.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/activity_profile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/activity_profile_login.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/activity_profile_subscription.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/activity_register_company.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/activity_register_worker.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/dialog_edit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/dialog_job_unaccepted_personal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/dialog_profile_video.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/dialog_sheet_simple.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/fragment_filter_area.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/fragment_filter_workplace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/fragment_image_slide.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/fragment_job_favourite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/fragment_job_my.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/fragment_job_offer.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/holder_action_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/holder_badge_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/holder_checkbox_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/holder_experiece_editable_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/holder_job_display_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/holder_language_editable_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/holder_language_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/holder_location_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/holder_message_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/holder_message_sender_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/holder_notification_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/holder_photo_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/holder_skill_editable_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/holder_skill_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/holder_spinner_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/holder_switcher_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/holder_youtube_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/image_fullscreen_preview.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/snackbar_old_data.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/text_edit_view_switch.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/view_experience.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/view_form_popup.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/view_from_edittext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/view_header.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/view_languages.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/view_photos.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/view_skills.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/view_toolbar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/view_videos.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/menu/bottom_menu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/menu/toolbar_filter_menu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/menu/toolbar_jobs_menu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/mipmap-hdpi/ic_profile_photo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/mipmap-hdpi/ic_profile_photo_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/mipmap-mdpi/ic_profile_photo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/mipmap-mdpi/ic_profile_photo_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/mipmap-xhdpi/ic_profile_photo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/mipmap-xhdpi/ic_profile_photo_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/mipmap-xxhdpi/ic_profile_photo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/mipmap-xxhdpi/ic_profile_photo_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/mipmap-xxxhdpi/ic_profile_photo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/mipmap-xxxhdpi/ic_profile_photo_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/values-v23/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/values/arrays.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/values/constants.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/values/styleable.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/mrocemic/java/cz/daywork/Api.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/mrocemic/res/values/credentials.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/novotkry/java/cz/daywork/Api.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/novotkry/res/values/credentials.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/sousemic/java/cz/daywork/Api.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/sousemic/res/values/credentials.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/test/java/cz/daywork/core/api/ApiErrorTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/test/java/cz/daywork/core/api/deserializer/DateDeserializerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/test/java/cz/daywork/core/api/interceptor/ErrorInterceptorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/test/java/cz/daywork/core/crypto/RsaHelperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/test/java/cz/daywork/core/db/enumeration/EnumerationTypeConverterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/test/java/cz/daywork/core/push/PushDeserializerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/test/java/cz/daywork/worker/filter/db/FilterElementTypeConverterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/test/java/cz/daywork/worker/filter/model/FilterResponseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/test/java/cz/daywork/worker/jobs/db/JobTypeConverterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/test/java/cz/daywork/worker/jobs/model/JobsResponseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/test/java/cz/daywork/worker/profile/db/ProfileTypeConverterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/test/java/cz/daywork/worker/util/model/UtilsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/test/java/cz/daywork/worker/util/model/ValidatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../docs/MVVM-base.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../docs/MVVM-dw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../settings.gradle" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1320593755">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="16" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="16" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1801591996">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.13" value="2" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="24" />
+          <entry key="java" value="2701" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="2701" />
+          <entry key="PLAIN_TEXT" value="24" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="31" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="31" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/sat/helpers/CPUTimer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sat/algorithm/SATSolverGA.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="49" column="15" selection-start-line="47" selection-start-column="12" selection-end-line="49" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sat/algorithm/SATSolution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/sat/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/sat/CPUTimer.java" />
+        <option value="$PROJECT_DIR$/src/com/sat/helpers/Constant.java" />
+        <option value="$PROJECT_DIR$/src/com/sat/helpers/Term.java" />
+        <option value="$PROJECT_DIR$/src/com/sat/factory/FormulaProblemSolverFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/sat/factory/SATSolver.java" />
+        <option value="$PROJECT_DIR$/src/com/sat/factory/SATSolverFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/sat/SatSolver.java" />
+        <option value="$PROJECT_DIR$/src/com/sat/Variable.java" />
+        <option value="$PROJECT_DIR$/src/com/sat/Clause.java" />
+        <option value="$PROJECT_DIR$/src/com/sat/Formula.java" />
+        <option value="$PROJECT_DIR$/src/com/sat/Term.java" />
+        <option value="$PROJECT_DIR$/src/com/sat/algorithm/Population.java" />
+        <option value="$PROJECT_DIR$/src/com/sat/algorithm/Member.java" />
+        <option value="$PROJECT_DIR$/src/com/sat/algorithm/SATSolution.java" />
+        <option value="$PROJECT_DIR$/src/com/sat/helpers/CPUTimer.java" />
+        <option value="$PROJECT_DIR$/src/com/sat/algorithm/SATSolverGA.java" />
+        <option value="$PROJECT_DIR$/src/com/sat/SATProblemSolver.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="GA3SAT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GA3SAT" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GA3SAT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GA3SAT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GA3SAT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GA3SAT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GA3SAT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GA3SAT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sat" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GA3SAT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GA3SAT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sat" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GA3SAT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GA3SAT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sat" type="462c0819:PsiDirectoryNode" />
+              <item name="helpers" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sat.algorithm" />
+      <recent name="com.sat.factory" />
+      <recent name="com.sat.helpers" />
+      <recent name="com.sat" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.sat" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.sat.SATProblemSolver" />
+      <module name="GA3SAT" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9453e96d-a1a2-41b0-b8f6-c490c59eed50" name="Default Changelist" comment="" />
+      <created>1546158823848</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1546158823848</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2639485" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/sat/algorithm/Member.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/sat/SATProblemSolver.java</url>
+          <line>108</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/sat/helpers/Constant.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/Set.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="224" column="12" selection-start-line="224" selection-start-column="12" selection-end-line="224" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sat/factory/SATSolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sat/factory/SATSolverFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sat/Formula.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
+            <element signature="e#632#633#0" expanded="true" />
+            <element signature="e#662#663#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sat/Variable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+          <folding>
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sat/Term.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sat/Clause.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#159#160#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sat/algorithm/Population.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="67" column="21" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sat/algorithm/Member.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/io/Writer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="155" column="16" selection-start-line="155" selection-start-column="16" selection-end-line="155" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sat/SATProblemSolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="55" column="51" selection-start-line="55" selection-start-column="51" selection-end-line="55" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sat/algorithm/SATSolverGA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="49" column="15" selection-start-line="47" selection-start-column="12" selection-end-line="49" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sat/algorithm/SATSolution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sat/helpers/CPUTimer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>GA3SAT</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>GA3SAT</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SATGenerator">
+    <output-path>$PROJECT_DIR$/out/artifacts/SATGenerator</output-path>
+    <root id="archive" name="SATGenerator.jar">
+      <element id="module-output" name="SATGenerator" />
+    </root>
+  </artifact>
+</component>
